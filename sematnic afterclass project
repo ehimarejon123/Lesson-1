@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Semantic tags in html</title>
+</head>
+<body>
+    <p>Welcome to my website</p>
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+        <main>
+            <p>This is the main content area of Ej's website</p>
+        </main>
+
+<section>
+    <h2>About me</h2>
+    <p>My name is Ehimare Jonathan and I am developer.I like creating scripts and logos.</p>
+</section>
+
+<article>
+    <h2>My project</h2>
+    <p>Heres a project I worked on</p>
+    <ul>
+        <li><a href="project1.html">Project 1</a></li>
+    </ul>
+</article>
+
+<footer>
+    <p>&copy; 2026 Ehimare Jonathan's personal website.All rights reserved</p>
+</footer>
+
+<div>
+<h2>Contact informataion</h2>
+<p>Email: EJ@hotmail.org</p>
+</div>
+
+</body>
+</html>
