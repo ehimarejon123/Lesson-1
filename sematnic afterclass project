@@ -4,6 +4,7 @@
 
     <title>Semantic tags in html</title>
 </head>
+<header>Semantic in html</header>
 <body>
     <p>Welcome to my website</p>
         <nav>
