@@ -1,0 +1,17 @@
+h2 {
+    color:brown;
+}
+
+.textstyle{
+    color:blue;
+}
+
+#text{
+    color:orange;
+}
+
+*{
+    background-color:black;
+    font-size:45px;
+    text-align: center;
+}
