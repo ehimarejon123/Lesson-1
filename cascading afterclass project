@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>cascading project</title>
+    <style>
+body {
+  background-image: url("page/2.png"), url("page/2.png");
+  background-color: rgb(48, 4, 86);
+  background-attachment: fixed;
+  background-position: relative;
+}
+</style>
+
+</head>
+<body>
+    </style>
+    </head>
+    <body>
+    <svg width="400" height="400">
+    <polygon points="110,10 50,198 200,78 30,78 170,198"
+    style="fill:orange; stroke:cyan; stroke-width:5;
+    fill-rule:evenodd;" />
+    <br><hr>
+    <svg width="500" height="600">
+    <rect width="400" height="200" style="fill:rgb(200, 0, 123);
+    stroke-width:5;stroke:rgb(26, 255, 0)" />
+    </body>
+</html>
+</body>
