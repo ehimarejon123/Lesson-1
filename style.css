@@ -1,17 +1,47 @@
-h2 {
-    color:brown;
+body {
+    font-family: 'arial', sans-serif;
+    background-color: rgb(1, 9, 65);
+    color:aliceblue
 }
 
-.textstyle{
-    color:blue;
+h1{
+    color:aqua
 }
 
-#text{
-    color:orange;
+a{
+    color:white;
+    text-decoration: none;
 }
 
-*{
-    background-color:black;
-    font-size:45px;
-    text-align: center;
+a:hover{
+    color: rgb(236, 255, 25);
+}
+
+ul li:nth-child(3) {
+    background-color: black;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li :before{
+    content: "";
+}
+
+ul li:nth-child(3) {
+    background-color: black;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "";
+}
+
+p::first-letter{
+    font-size: 200%;
+    color: rgb(255, 43, 43);
 }
