@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Position in html</title>
+</head>
+<style>
+    .static{
+        position: static;
+        border: 5px solid black;
+    }
+    .relative{
+        position: relative;
+        left: 50px;
+        top: 50px;
+        border: 5px solid black;
+    }
+    .parent{
+        position: relative;
+        border: 5px solid black;
+        height: 200px;
+        width: 200px;
+    }
+    .child{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+background-color: orange;
+width: 100px;
+height: 100px;
+    }
+    .fixed{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .sticky{
+        position: sticky;
+        top: 0;
+        background-color: yellow;
+    }
+</style>
+<body>
+    <div class="static">This is a static position</div>
+
+    <div class="relative">Relative box</div>   
+
+    <div class="parent">
+        <div class="child">Absolute box</div>
+
+        <div class="fixed">Fixed box</div>
+
+
+        <h1 class="sticky">Sticky header</h1>
+
+</body>
+</html>
