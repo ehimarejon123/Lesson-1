@@ -1,0 +1,11 @@
+<!DOCTYPE JavaScript>
+<javascript>
+
+<body>
+
+<h1>Calculator</h1>
+<p>Perform all Operations using JavaScript</p>
+<p id="add"></p>
+<p id="sub"></p>
+<p id="mul"></p>
+<p id="div"></p>
