@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="testscope()">check scope</button>
+    <p id="demo"></p> <script>
+
+        function testscope(){
+            let message="this is a local variable"
+            document.getElementById("demo").innerHTML=message
+        }
+    </script>
+</body>
+</html>
