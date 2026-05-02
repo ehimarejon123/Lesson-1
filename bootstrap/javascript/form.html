@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+<style>
+    input{
+        padding: 10px;
+        margin: 5px;
+    }
+    .error{
+        color:red;
+    }
+    .success{
+        color:green;
+    }
+</style>
+    <title>Form validation</title>
+</head>
+<body>
+    <h2>Register Form</h2>
+    <input id="username" placeholder="Enter username:">
+    <p id="message"></p>
+    <script>
+        document.getElementById("username").addEventListener("input", validate);
+        function validate(){
+            let input =document.getElementById("username").value;
+            let message=document.getElementById("message");
+            if(input.length < 5){
+                message.innerHTML ="username looks good!";
+                message.className ="success";
+            }
+        }
+    </script>
+</body>
+</html>

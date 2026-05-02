@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+<style>
+    h1{
+        color:blue;
+    }
+</style>
+    <title>DOM example</title>
+</head>
+<body>
+    <h1 id ="heading">hello student</h1>
+    <button onclick="changetext()">click me</button>
+    <script>
+        function changetext(){
+            let element=document.getElementById("heading")
+            element.innerHTML="Hello world"
+            element.style.color="red"
+        }
+    </script>
+</body>
+</html>
