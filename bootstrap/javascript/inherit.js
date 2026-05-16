@@ -14,4 +14,4 @@ let d = new Dog ()
 d.speak(
 
 )
-d.bark()
+d.bark(n)
