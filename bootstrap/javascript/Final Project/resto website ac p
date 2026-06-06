@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>My resto</title>
+
+    <style>
+        body {
+            margin: 0px;
+            font-family: arial;
+            background-color: rgb(148, 12, 0);
+        }
+
+        .banner {
+            width: 100%;
+            height: 180px;
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/054/611/336/small/wide-angle-foodgraphy-for-restaurant-with-copy-space-photo.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            color: rgb(255, 230, 4); 
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+            color: rgb(255, 230, 4); 
+        }
+
+        .content h2 {
+            color: rgb(255, 230, 4); 
+        }
+
+        .project-section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            transition: 0.3s;
+            border: none;
+            border-radius: 15px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .btn-project {
+            background-color: rgb(255, 230, 4);
+            color: rgb(0, 0, 0);
+            border: none;
+        }
+
+        .btn-project:hover {
+            background-color: black;
+            color: rgb(255, 255, 255);
+        }
+
+        .social-section {
+            background: white;
+            padding: 80px 0 40px 0; /* Adjusted bottom padding to blend smoothly with footer */
+            text-align: center;
+        }
+
+        .social-section h2 {
+            margin-bottom: 30px;
+        }
+
+        .social-icons {
+            font-size: 35px;
+            margin: 0 25px;
+            color: #333;
+            transition: 0.3s;
+        }
+
+        .social-icons a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px; 
+        }
+
+        .social-icons a:hover {
+            color: rgb(250, 150, 0);
+        }
+
+        /* Added styling for the new footer copyright element */
+        .site-footer {
+            background-color: #ffffff;
+            color: #666666;
+            font-size: 14px;
+            padding-bottom: 30px;
+            text-align: center;
+            border-top: 1px solid #eeeeee; /* Light divider line from social icons */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        <u>Welcome to my restaurant</u>
+    </div>
+
+    <div class="content">
+        <h2>About Us:</h2>
+        <p>Welcome to my restaurant, where great food meets exceptional company. Our kitchen crafts every dish using fresh, high-quality ingredients to bring you unforgettable flavors in every bite. Whether you are joining us for a casual meal or celebrating a special milestone, our warm hospitality and vibrant atmosphere create the perfect setting. Pro tip: We highly recommend booking a table online in advance for weekend dinners, and don't leave without asking your server about tonight's freshly made chef specials.</p>
+    </div>
+
+    <div class="project-section">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="https://img.freepik.com/premium-vector/fast-food-restaurant-thumbnail-design-special-food-template-pizza-burger-healt-template_547455-48.jpg" alt="Booking">
+                        <div class="card-body">
+                            <h3 class="card-title">Make a booking</h3>
+                            <p class="card-text">Modern gourmet restaurant, plenty of time slots, just give us a call.</p>
+                            <button class="btn btn-project">Proceed</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="https://media.gettyimages.com/id/1352878646/video/4k-video-footage-of-a-waitress-delivering-food-to-a-group-of-friends.jpg?s=640x640&k=20&c=YUU3qAsgzyh_T6-UbRWD0Kmqp_xpjlUMliv1Thf3jhs=" alt="Opening Times">
+                        <div class="card-body">
+                            <h3 class="card-title">Opening times</h3>
+                            <p class="card-text">Monday-Thursday: 08:00-22:00 Friday-Saturday: 09:00-23:00 Sunday: 10:00-17:00</p>
+                            <button class="btn btn-project">Proceed</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="https://img.freepik.com/free-psd/food-menu-restaurant-web-banner-cover-template-design_84443-10575.jpg" alt="Contact">
+                        <div class="card-body">
+                            <h3 class="card-title">Contact</h3>
+                            <p class="card-text">Number: +804-790-3688</p>
+                            <button class="btn btn-project">Proceed</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="social-section">
+        <div class="container">
+            <h2>Follow us</h2>
+            <p>Connect with us on social media</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a> 
+                <a href="mailto:info@myresto.com"><i class="fa-solid fa-envelope"></i></a> 
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 My restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
