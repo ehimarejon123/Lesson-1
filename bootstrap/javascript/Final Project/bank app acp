@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-       <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Bank App</title>
     <style>
         body {
@@ -60,7 +61,7 @@
         .p2 { font-family: Arial, Helvetica, sans-serif; }
     </style>
 </head>
-
+<body>
 
     <div class="bank-container">
         <h1>Bank App</h1>
@@ -78,6 +79,18 @@
         <p class="balance-display">Your Account Balance is : Rs.<span id="balance">0.00</span></p>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        function handleTransaction(type) {
+            var current_balance_e1 = document.getElementById("balance");
+            var current_balance_el = document.getElementById("balance");
+            var entered_amount_e1 = document.getElementById("amount").value;
+
+            var account_balance = parseInt(current_balance_e1.innerText) + parseInt(entered_amount_e1); 
+            current_balance_el.innerHTML = parseInt(account_balance);
+        }
+    </script>
+
 </body>
 </html>
+
+
