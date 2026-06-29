@@ -1,0 +1,10 @@
+name = input("Enter your name: ")
+mood = input("How are you feeling today? happy/sad/tired/stressed/excited: ")
+energy = int(input("Enter your energy level from 1 to 10: "))
+if energy < 3:
+    print("Alert: Your energy seems low today. Take some rest if needed.")
+elif energy >= 5:
+    print("You have enough energy to do something productive today!")
+else:
+    print("Take it slow today and do something relaxing.")
+    
