@@ -1,0 +1,8 @@
+Enter your Binary: 010
+Decimal :  2
+ 
+Enter your Binary: 1101
+Decimal :  13
+binary_str = input("Enter your Binary: ")
+decimal_val = int(binary_str, 2)
+print(f"Decimal : {decimal_val}")
