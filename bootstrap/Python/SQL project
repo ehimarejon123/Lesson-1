@@ -1,0 +1,13 @@
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    department VARCHAR(50),
+    is_fraudulent BOOLEAN
+);
+INSERT INTO employees (employee_id, first_name, last_name, department, is_fraudulent) 
+VALUES 
+(101, 'John', 'Doe', 'Finance', TRUE),
+(102, 'Jane', 'Smith', 'HR', FALSE),
+(103, 'Tarun', 'Sharma', 'IT', FALSE),
+(104, 'Mike', 'Johnson', 'Sales', TRUE);
