@@ -1,0 +1,17 @@
+import numpy as np
+
+original_array = np.linspace(0, 9, 10)
+print("1. Original Array:", original_array)
+
+modified_array = np.where(original_array % 2 != 0, -1, original_array)
+print("2. Modified Array:", modified_array)
+print("   Verify Original remains unchanged:", original_array)
+
+reshaped_array = original_array.reshape(2, 5)
+print("3. Reshaped 2D Array:\n", reshaped_array)
+
+even_sum = 0
+for element in original_array:
+    if element % 2 == 0:
+        even_sum += element
+print("4. Sum of all even elements:", even_sum)
